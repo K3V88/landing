@@ -1,0 +1,126 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Poppins:wght@700');
+
+/* Fontawesome */
+@import url('https://use.fontawesome.com/releases/v6.1.2/css/all.css');
+
+/* Utilities */
+body {
+  margin: 0;
+  font-family: Open Sans;
+}
+
+h1, h2, h3, h4 {
+  font-family: Poppins;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* Custom design below! */
+.container1 {
+  width: 500px;
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+}
+
+.container1 p {
+  color: darkgray;
+  margin-bottom: 10px;
+}
+
+.banner {
+  background: url('https://images.unsplash.com/photo-1625905928324-577cf7f94ac4?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1932&q=80');
+  background-position: center;
+  color: white;
+  height: 550px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.btn {
+  background-color: orange;
+  display: inline-block; /* Change display to inline-block */
+  padding: 10px 20px; /* Add some padding to make the button look better */
+  border: none;
+  color: white;
+  width: 70px;
+  text-align: center;
+  margin-top: 10px;
+  border-radius: 25px;
+  text-decoration: none;
+}
+
+.btn a {
+  color: white;
+}
+
+.container2 {
+  width: auto;
+  justify-content: center;
+}
+
+.container2 h2 {
+  color: black;
+  margin-bottom: 10px;
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.cards {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.card {
+  border: 1px solid gray;
+  margin-bottom: 20px;
+  width: 200px;
+  height: 300px;
+  box-shadow: 2px 2px 5px rgb(236, 231, 231);
+  display: inline-block;
+  justify-content: center;
+  text-align: center;
+  padding: 20px 20px;
+  border: 1px solid rgb(243, 241, 241);
+}
+
+.card p {
+  color: gray;
+  font-weight: lighter;
+
+}
+
+.card img {
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+  margin-bottom: 20px;
+}
+
+.footer {
+  height: 200px;
+  background-color: rgb(41, 36, 36);
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.footer p {
+  color: white;
+
+}
+
+.fab {
+  color: rgb(212, 139, 44);
+  font-size: 30px;
+  padding-left: 10px;
+}
